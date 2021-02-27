@@ -1,5 +1,7 @@
 
+
 def read_log(log):
+  """takes log parameter as a file that will read by open(log,'r') as f:"""
  error = []
  with open(log, "r") as f:
   lines = f.readlines()
